@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next"
-import { Inter, JetBrains_Mono } from 'next/font/google'
-import localFont from 'next/font/local'
+import { Inter, JetBrains_Mono, Clash_Display } from 'next/font/google'
 import "./globals.css"
 
 const inter = Inter({ 
@@ -13,13 +12,9 @@ const jetbrains = JetBrains_Mono({
   variable: '--font-mono'
 })
 
-const clash = localFont({
-  src: [
-    { path: '../public/fonts/ClashDisplay-Regular.woff2', weight: '400' },
-    { path: '../public/fonts/ClashDisplay-Medium.woff2', weight: '500' },
-    { path: '../public/fonts/ClashDisplay-Bold.woff2', weight: '600' },
-    { path: '../public/fonts/ClashDisplay-Semibold.woff2', weight: '700' },
-  ],
+const clash = Clash_Display({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
   variable: '--font-clash'
 })
 
