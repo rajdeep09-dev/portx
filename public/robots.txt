@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://portx.vercel.app/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Crawl-delay: 1
