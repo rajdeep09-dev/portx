@@ -80,7 +80,7 @@ export default function WorksPage() {
 
       <section className="w-full py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-black text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-clash font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
             Let's Create Your Success Story
           </h2>
           <p className="text-lg text-gray-300 font-inter mb-8">

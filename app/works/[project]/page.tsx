@@ -113,7 +113,7 @@ export default async function ProjectPage(props: ProjectPageProps) {
         <div className="max-w-4xl mx-auto">
           {/* Project Details */}
           <div className="mb-12 pb-12 border-b border-gray-200">
-            <h2 className="text-2xl md:text-3xl font-clash font-bold text-black mb-6">
+            <h2 className="text-2xl md:text-3xl font-display font-bold text-black mb-6">
               Project Overview
             </h2>
             <p className="text-lg text-gray-600 font-inter leading-relaxed mb-8">
@@ -154,7 +154,7 @@ export default async function ProjectPage(props: ProjectPageProps) {
 
           {/* CTA */}
           <div className="text-center py-12 border-t border-gray-200">
-            <h3 className="text-2xl font-clash font-bold text-black mb-4">
+            <h3 className="text-2xl font-display font-bold text-black mb-4">
               Interested in a Similar Project?
             </h3>
             <Link
@@ -170,7 +170,7 @@ export default async function ProjectPage(props: ProjectPageProps) {
       {/* Related Projects */}
       <section className="w-full py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-clash font-bold text-black mb-8">
+          <h2 className="text-2xl md:text-3xl font-display font-bold text-black mb-8">
             More Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -186,7 +186,7 @@ export default async function ProjectPage(props: ProjectPageProps) {
                   <div className="bg-gray-100 rounded-lg aspect-video mb-4 flex items-center justify-center group-hover:bg-gray-200 transition-colors">
                     <p className="text-gray-500 font-inter text-sm">{proj.category}</p>
                   </div>
-                  <h3 className="text-lg font-clash font-bold text-black group-hover:text-accent-orange transition-colors">
+                  <h3 className="text-lg font-display font-bold text-black group-hover:text-accent-orange transition-colors">
                     {proj.title}
                   </h3>
                   <p className="text-sm text-gray-600 font-inter mt-2">{proj.description}</p>

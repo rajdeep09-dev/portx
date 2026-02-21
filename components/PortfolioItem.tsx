@@ -34,7 +34,7 @@ export default function PortfolioItem({
             </div>
           </div>
           <div className="p-6">
-            <h3 className="text-xl font-clash font-bold text-black mb-2">
+            <h3 className="text-xl font-display font-bold text-black mb-2">
               {title}
             </h3>
             <p className="text-gray-600 font-inter text-sm">

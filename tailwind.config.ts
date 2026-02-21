@@ -19,9 +19,9 @@ const config: Config = {
         "success-green": "#40ce03"
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        "inter-display": ["Inter Display", "sans-serif"],
-        clash: ["Clash Display", "sans-serif"]
+        inter: ["var(--font-inter)", "sans-serif"],
+        display: ["var(--font-display)", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"]
       }
     }
   },

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-3xl font-clash font-bold mb-4">Portx</h3>
+            <h3 className="text-3xl font-display font-bold mb-4">Portx</h3>
             <p className="text-gray-300 font-inter text-sm leading-relaxed max-w-sm">
               A sleek and modern Framer template designed for creative professionals, freelancers, and agencies.
             </p>

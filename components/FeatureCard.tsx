@@ -33,7 +33,7 @@ export default function FeatureCard({
         </div>
       )}
       
-      <h3 className="text-xl md:text-2xl font-clash font-bold text-black mb-3">
+      <h3 className="text-xl md:text-2xl font-display font-bold text-black mb-3">
         {title}
       </h3>
       

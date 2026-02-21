@@ -14,7 +14,7 @@ export default function Header() {
         {/* Logo */}
         <Link 
           href="/" 
-          className="text-2xl font-bold font-clash text-black hover:text-accent-orange transition-colors duration-300"
+          className="text-2xl font-bold font-display text-black hover:text-accent-orange transition-colors duration-300"
         >
           Portx
         </Link>

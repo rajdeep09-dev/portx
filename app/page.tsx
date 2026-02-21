@@ -58,9 +58,9 @@ export default function Home() {
       <section className="w-full py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-clash font-bold text-black mb-4">
-              Our Services
-            </h2>
+          <h2 className="text-3xl md:text-5xl font-display font-bold text-black mb-4">
+            Our Services
+          </h2>
             <p className="text-lg text-gray-600 font-inter max-w-2xl mx-auto">
               From brand strategy to digital design, we create solutions that elevate your presence.
             </p>
@@ -83,7 +83,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="w-full py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-black text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-clash font-bold mb-6">
+          <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
             Ready to Start Your Project?
           </h2>
           <p className="text-lg text-gray-300 font-inter mb-8 max-w-2xl mx-auto">

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next"
-import { Inter, JetBrains_Mono, Clash_Display } from 'next/font/google'
+import { Inter, JetBrains_Mono, Space_Grotesk } from 'next/font/google'
 import "./globals.css"
 
 const inter = Inter({ 
@@ -12,10 +12,10 @@ const jetbrains = JetBrains_Mono({
   variable: '--font-mono'
 })
 
-const clash = Clash_Display({
+const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
-  weight: ['400', '600', '700'],
-  variable: '--font-clash'
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-display'
 })
 
 export const metadata: Metadata = {
@@ -53,7 +53,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${jetbrains.variable} ${clash.variable}`}>
+    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${jetbrains.variable} ${spaceGrotesk.variable}`}>
       <head>
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
